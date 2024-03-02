@@ -25,6 +25,7 @@ function SignUpModal() {
     const templateParams = {
       to_email: formData.email,
       message: `Hello ${formData.name}, welcome to our platform!`,
+      reply_to: formData.email, // Using the submitted email as the reply-to
     };
 
     emailjs
@@ -37,12 +38,10 @@ function SignUpModal() {
       .then(
         (response) => {
           console.log("Email sent successfully:", response);
-
           setShowAlert(true);
         },
         (error) => {
           console.error("Email failed to send:", error);
-
           setShowAlert(true);
         }
       );
