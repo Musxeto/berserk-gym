@@ -74,3 +74,8 @@
 .btn-join-now:hover {
   background-color: #e07000; 
 }
+.logo {
+  height: 65%;
+  width: 65%;
+  margin-right: 20px;
+}

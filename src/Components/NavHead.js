@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from "react";
 import "./NavHead.css";
 import SignUpModal from "./SignUpModal.js";
+
 function NavHead() {
   const [navbarBg, setNavbarBg] = useState("bg-transparent");
   const [isNavOpen, setNavOpen] = useState(false);
-  const [isModalOpen, setModalOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
 
-      // Set background based on scroll position
       if (scrollY > 50) {
         setNavbarBg("bg-black");
       } else {
@@ -18,10 +17,8 @@ function NavHead() {
       }
     };
 
-    // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
 
-    // Clean up the event listener on component unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -30,22 +27,29 @@ function NavHead() {
   const toggleNav = () => {
     setNavOpen(!isNavOpen);
   };
+
   return (
     <>
       <nav className={`navbar navbar-expand-lg ${navbarBg} fixed-top`}>
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            <img src="/berserk-gym.png" alt="gym logo" className="img-fluid" />
-          </a>
-          <button
-            className={`navbar-toggler ${isNavOpen ? "open" : ""}`}
-            type="button"
-            onClick={toggleNav}
-          >
-            <span className="bar"></span>
-            <span className="bar"></span>
-            <span className="bar"></span>
-          </button>
+          <div className="d-flex align-items-center">
+            <a className="navbar-brand" href="#">
+              <img
+                src="/berserk-gym.png"
+                alt="gym logo"
+                className="img-fluid logo"
+              />
+            </a>
+            <button
+              className={`navbar-toggler ${isNavOpen ? "open" : ""}`}
+              type="button"
+              onClick={toggleNav}
+            >
+              <span className="bar"></span>
+              <span className="bar"></span>
+              <span className="bar"></span>
+            </button>
+          </div>
           <div
             className={`collapse navbar-collapse ${isNavOpen ? "show" : ""}`}
             id="navbarSupportedContent"
