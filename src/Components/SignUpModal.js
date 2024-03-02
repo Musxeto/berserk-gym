@@ -25,7 +25,7 @@ function SignUpModal() {
     const templateParams = {
       to_email: formData.email,
       message: `Hello ${formData.name}, welcome to our platform!`,
-      reply_to: formData.email, // Using the submitted email as the reply-to
+      reply_to: formData.email,
     };
 
     emailjs
