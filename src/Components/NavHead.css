@@ -1,0 +1,76 @@
+/* NavHead.css */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.navbar {
+    padding-top: 15px;
+  transition: background-color 0.3s ease-in-out;
+  font-family: 'Oswald', sans-serif; /* Apply Oswald font to the entire navbar */
+}
+
+.navbar a.nav-link {
+  font-size: 20px;
+  margin-right: 50px;
+  color: white !important;
+  font-family: 'Oswald', sans-serif; /* Apply Oswald font to the navigation links */
+  transition: 0.3s;
+}
+
+.navbar a.nav-link:hover {
+    font-size: 20px;
+    color: #f58424 !important;
+    font-family: 'Oswald', sans-serif; /* Apply Oswald font to the navigation links */
+  }
+
+.navbar-brand img{
+    height: 65%;
+    width: 65%;
+}
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .navbar-toggler .bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #f58424;
+    margin: 6px 0;
+    transition: 0.3s;
+  }
+  
+  
+  .navbar-toggler.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .navbar-toggler.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .navbar-toggler.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  .btn-join-now {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-right: 20px; /* Adjust the margin as needed */
+    background-color: #f58424;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-join-now i {
+    margin-left: 10px;
+  }
+  
+  .btn-join-now:hover {
+    background-color: #e07000; /* Adjust the hover color as needed */
+  }
