@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./NavHead.css";
+import SignUpModal from "./SignUpModal.js";
 function NavHead() {
   const [navbarBg, setNavbarBg] = useState("bg-transparent");
   const [isNavOpen, setNavOpen] = useState(false);
@@ -81,12 +82,17 @@ function NavHead() {
                 </a>
               </li>
             </ul>
-            <button className="btn-join-now">
+            <button
+              className="btn-join-now"
+              data-bs-toggle="modal"
+              data-bs-target="#SignUpModal"
+            >
               Join Now <i className="fas fa-arrow-right"></i>
             </button>
           </div>
         </div>
       </nav>
+      <SignUpModal />
     </>
   );
 }
