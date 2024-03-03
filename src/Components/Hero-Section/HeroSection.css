@@ -9,9 +9,11 @@
   .left {
     color: #fff;
     flex: 2;
-    margin-left: 2rem;
+    margin-left: 5rem;
+    margin-right: 0;
+    padding: 0;
+    z-index: 2;
   }
-  
 
   .loading-beast{
     font-size: 1.3rem; 
@@ -69,13 +71,15 @@
   .description {
     font-family: 'Oswald', sans-serif;
     margin-top: 20px; 
-    font-size: 1.5rem; 
+    font-size: 1.4rem; 
     line-height: 1.5; 
     color: #ccc; 
   }
-
+  .description>span{
+    display: block;
+  }
 .cta-buttons {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
   }
   
   .cta-buttons button {
@@ -115,6 +119,7 @@
   }
   
   .body-builder {
+    margin-left: 4rem;
     margin-top: 6rem;
     position: relative;
   }
@@ -132,30 +137,49 @@
   }
   
   .body-builder > img {
-    height: 31.5rem;
+    height: 31.8rem;
     z-index: 1; 
   }
   
   @media only screen and (max-width: 767px) {
   
-    .hero-section{
+    .hero-section {
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
+      margin: 0;
     }
-    .hero-text {
-      margin-top: 1rem;
-      font-size: 2rem;
-      text-align: center;
-      align-items: center;
+    .orange-bubble {
+      position: absolute;
+      top: 64%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 360px;
+      height: 190px;
+      background: radial-gradient(circle at center, rgba(255, 128, 0, 0.05)0%, rgba(0, 0, 0, 0.0) 100%);
+      border-radius: 20%;
+      z-index: -1;
+      
     }
-  
-    .description {
-      font-size: 1rem;
+
+
+
+    
+    @keyframes floatAnimation {
+      0%, 100% {
+        transform: translate(-50%, -50%) translateY(0);
+      }
+      50% {
+        transform: translate(-50%, -50%) translateY(-10px);
+      }
     }
-  
+    
+    .description>span{
+      display:inline;
+    }
     .cta-buttons {
-      margin-top: 1rem;
+      margin-top: 2rem;
     }
   
     .cta-buttons button {
@@ -164,7 +188,7 @@
     }
   
     .body-builder {
-      margin-left: 4rem;
+      margin-left: 6.5rem;
       margin-top: 3rem;
     }
    
@@ -181,7 +205,7 @@
     }
     .body-builder > img {
       align-self: center;
-      height: 14rem;
+      height: 13rem;
     }
   
     .hero-section {
@@ -205,26 +229,38 @@
       margin-left: auto; 
       margin-right: auto; 
     }
-    .hero-section {
-      position: relative;
+    .hero-text {
+      margin-top: 4rem;
+      font-size: 2rem;
+      text-align: center;
+      align-items: center;
+      text-shadow: 0 0 60px #e07000; /* Add glowing effect */
     }
+  
+    .description {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      text-shadow: 0 0 60px #f77e04;
+    }
+  
     
     .body-builder {
       position: absolute;
       top: 50%;
-      left: 60%;
+      left: 50%;
       transform: translate(-50%, -50%);
-      z-index: -1; 
-  }
-  .body-builder::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    z-index: -1;
-    border-radius: 1rem; 
-  }
+      z-index: -1;
+    }
+  
+    .body-builder::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      z-index: -1;
+      border-radius: 1rem;
+    }
   }  

@@ -4,6 +4,7 @@ import "./HeroSection.css";
 const HeroSection = () => {
   return (
     <div className="container-fluid hero-section">
+      <div className="orange-bubble d-lg-none"></div>
       <div className="row no-gutters">
         <div className="col-md-8 col-12 left">
           <div className="loading-beast">
@@ -19,22 +20,22 @@ const HeroSection = () => {
               <span>PHYSIQUE </span>
             </div>
             <div className="description">
-              <div>
+              <span>
                 Discover the path to your ideal shape & strength with our
                 transformative
-              </div>
+              </span>
               <span>fitness programs & modern equipments.</span>
             </div>
-            <div className="cta-buttons">
-              <button
-                className="btn btn-primary solid-button"
-                data-bs-toggle="modal"
-                data-bs-target="#SignUpModal"
-              >
-                Free Trial Pass
-              </button>
-              <button className="btn outline-button">Explore Services</button>
-            </div>
+          </div>
+          <div className="cta-buttons">
+            <button
+              className="btn btn-primary solid-button"
+              data-bs-toggle="modal"
+              data-bs-target="#SignUpModal"
+            >
+              Free Trial Pass
+            </button>
+            <button className="btn outline-button">Explore Services</button>
           </div>
         </div>
         <div className="col-md-4 col-12  d-md-block right">
