@@ -1,0 +1,77 @@
+.hero-section {
+    font-family: 'Arial', Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: relative;
+    z-index: 1; 
+  }
+  
+  .left {
+    color: #fff; 
+  }
+  
+  .hero-text {
+    margin-left: 2rem;
+    font-size: 4rem; 
+  }
+  
+  .top-text span {
+    font-weight: bold; 
+  }
+  
+  .bottom-text span {
+    font-weight: bold; 
+    margin-top: 10px; 
+  }
+  
+  .description {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px; 
+    font-size: 1.5rem; 
+    line-height: 1.5; 
+    color: #ccc; 
+  }
+
+.cta-buttons {
+    margin-top: 20px;
+    margin-left: 2rem;
+  }
+  
+  .cta-buttons button {
+    padding: 12px 24px;
+    margin-right: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .cta-buttons .solid-button {
+    background-color: #f58424;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .cta-buttons .solid-button:hover {
+    background-color: #e07000;
+  }
+  
+
+  .cta-buttons .outline-button {
+    background-color: transparent;
+    color: #ccc;
+    border: 2px solid #f58424;
+    border-radius: 5px;
+  }
+
+  .cta-buttons .outline-button:hover {
+    background-color: #de8334;
+    color: #ccc;
+    border: 2px solid #f58424;
+    border-radius: 5px;
+  }
+  
+  
+  
