@@ -1,0 +1,8 @@
+.counts{
+    display: flex;
+}
+.count{
+    width: 100vh;
+    height: 20px;
+    background-color: black;
+}

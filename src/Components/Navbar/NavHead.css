@@ -80,3 +80,41 @@
   width: 65%;
   margin-right: 20px;
 }
+@media only screen and (max-width: 1000px) {
+  .navbar-toggler {
+    padding: 4px; /* Adjust the padding for smaller size */
+  }
+
+  .navbar-toggler .bar {
+    height: 2px; /* Adjust the height of the bars */
+    margin: 4px 0; /* Adjust the margin of the bars */
+  }
+
+  .btn-join-now {
+    margin-right: 10px; /* Adjust the margin for the join now button */
+  }
+
+  .navbar-brand img {
+    height: 60%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .navbar-toggler {
+    padding: 4px; /* Adjust the padding for smaller size */
+  }
+
+  .navbar-toggler .bar {
+    height: 2px; /* Adjust the height of the bars */
+    margin: 4px 0; /* Adjust the margin of the bars */
+  }
+
+  .btn-join-now {
+    margin-right: 10px; /* Adjust the margin for the join now button */
+  }
+
+  .navbar-brand img {
+    height: 40%;
+    width: 45%;
+  }
+}

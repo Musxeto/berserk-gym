@@ -30,7 +30,7 @@ function NavHead() {
 
   return (
     <>
-      <nav className={`navbar navbar-expand-lg ${navbarBg} fixed-top`}>
+      <nav className={`navbar navbar-expand-md ${navbarBg} fixed-top`}>
         <div className="container-fluid">
           <div className="d-flex align-items-center">
             <a className="navbar-brand" href="#">
@@ -41,7 +41,9 @@ function NavHead() {
               />
             </a>
             <button
-              className={`navbar-toggler ${isNavOpen ? "open" : ""}`}
+              className={`navbar-toggler navbar-toggler-light ${
+                isNavOpen ? "open" : ""
+              }`}
               type="button"
               onClick={toggleNav}
             >
@@ -51,7 +53,9 @@ function NavHead() {
             </button>
           </div>
           <div
-            className={`collapse navbar-collapse ${isNavOpen ? "show" : ""}`}
+            className={`collapse navbar-collapse justify-content-end ${
+              isNavOpen ? "show" : ""
+            }`}
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">

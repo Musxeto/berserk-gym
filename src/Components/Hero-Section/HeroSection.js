@@ -3,35 +3,45 @@ import "./HeroSection.css";
 
 const HeroSection = () => {
   return (
-    <div className="hero-section">
-      <div className="left">
-        <div className="loading-beast">
-          <div></div>
-          <span>UNLEASH YOUR INNER BEAST</span>
-        </div>
-        <div className="hero-text">
-          <div className="top-text">
-            <span>BUILD YOUR</span>
+    <div className="container-fluid hero-section">
+      <div className="row no-gutters">
+        <div className="col-md-8 col-12 left">
+          <div className="loading-beast">
+            <div></div>
+            <span>UNLEASH YOUR INNER BEAST AT BERSERK</span>
           </div>
-          <div className="bottom-text">
-            <span className="stroke-text dream">DREAM </span>
-            <span>PHYSIQUE</span>
-          </div>
-          <div className="description">
-            <div>
-              Discover the path to your ideal shape & strength with our
-              transformative
+          <div className="hero-text">
+            <div className="top-text">
+              <span>BUILD YOUR</span>
             </div>
-            <div> fitness programs & modern equipments.</div>
+            <div className="bottom-text">
+              <span className="stroke-text dream">DREAM </span>
+              <span>PHYSIQUE </span>
+            </div>
+            <div className="description">
+              <div>
+                Discover the path to your ideal shape & strength with our
+                transformative fitness programs & modern equipments.
+              </div>
+            </div>
+            <div className="cta-buttons">
+              <button
+                className="btn btn-primary solid-button"
+                data-bs-toggle="modal"
+                data-bs-target="#SignUpModal"
+              >
+                Free Trial Pass
+              </button>
+              <button className="btn outline-button">Explore Services</button>
+            </div>
           </div>
         </div>
-        <div className="cta-buttons">
-          <button className="solid-button">Free Trial Pass</button>
-          <button className="outline-button">Explore Services</button>
+        <div className="col-md-4 col-12  d-md-block right">
+          <div className="body-builder">
+            <img src="/athlete.png" alt="Athlete" />
+          </div>
         </div>
       </div>
-
-      <div className="right">right</div>
     </div>
   );
 };
