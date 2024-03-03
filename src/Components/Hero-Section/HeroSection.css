@@ -1,5 +1,4 @@
 .hero-section {
-    font-family: 'Arial', Helvetica, sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -9,11 +8,53 @@
   
   .left {
     color: #fff; 
+    flex: 3;
   }
   
+  .loading-beast{
+    font-size: 1.5rem; 
+    margin-top: 11rem;
+    margin-left: 2rem;
+    background-color: #222;
+    border-radius: 4.5rem;
+    width: fit-content;
+    padding: 1rem 1.5rem;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .loading-beast>span{
+    z-index: 3;
+  }
+  @keyframes loadingAnimation {
+    0% {
+      left: 0.5rem;
+    }
+    50% {
+      left: calc(100% - 4.5rem);
+    }
+    100% {
+      left: 0.5rem;
+    }
+  }
+  
+  .loading-beast > div {
+    position: absolute;
+    background-color: #f58424;
+    width: 4rem;
+    height: 80%;
+    border-radius: 3rem;
+    left: 0.5rem;
+    z-index: 1;
+    animation: loadingAnimation 5s infinite;
+  }
+
   .hero-text {
+    font-family: 'Arial', Helvetica, sans-serif;
     margin-left: 2rem;
     font-size: 4rem; 
+    margin-top: 3rem;
   }
   
   .top-text span {
@@ -34,7 +75,7 @@
   }
 
 .cta-buttons {
-    margin-top: 20px;
+    margin-top: 2.5rem;
     margin-left: 2rem;
   }
   
@@ -49,13 +90,13 @@
   
   
   .cta-buttons .solid-button {
-    background-color: #f58424;
+    background-color: #e07000;
     color: white;
     border: none;
     border-radius: 5px;
   }
   .cta-buttons .solid-button:hover {
-    background-color: #e07000;
+    background-color: #f58424;
   }
   
 
@@ -64,6 +105,7 @@
     color: #ccc;
     border: 2px solid #f58424;
     border-radius: 5px;
+    transition: 0.5s;
   }
 
   .cta-buttons .outline-button:hover {
@@ -73,5 +115,8 @@
     border-radius: 5px;
   }
   
+  .right{
+    flex: 1;
+  }
   
   

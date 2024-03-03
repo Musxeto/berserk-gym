@@ -5,12 +5,16 @@ const HeroSection = () => {
   return (
     <div className="hero-section">
       <div className="left">
+        <div className="loading-beast">
+          <div></div>
+          <span>UNLEASH YOUR INNER BEAST</span>
+        </div>
         <div className="hero-text">
           <div className="top-text">
             <span>BUILD YOUR</span>
           </div>
           <div className="bottom-text">
-            <span className="stroke-text">DREAM </span>
+            <span className="stroke-text dream">DREAM </span>
             <span>PHYSIQUE</span>
           </div>
           <div className="description">
