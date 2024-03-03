@@ -21,8 +21,9 @@ const HeroSection = () => {
             <div className="description">
               <div>
                 Discover the path to your ideal shape & strength with our
-                transformative fitness programs & modern equipments.
+                transformative
               </div>
+              <span>fitness programs & modern equipments.</span>
             </div>
             <div className="cta-buttons">
               <button
