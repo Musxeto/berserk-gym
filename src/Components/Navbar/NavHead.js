@@ -82,7 +82,7 @@ function NavHead() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Contact Us
+                  Testimonials
                 </a>
               </li>
             </ul>

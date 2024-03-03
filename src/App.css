@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 body {
-    background-color: #5555;
+    background-color: #333; /* Light grayish-blue background color */
     font-family: 'Oswald', sans-serif;
-    color: white
+    color: white; /* Dark text color or adjust as needed */
 }
+
+
+

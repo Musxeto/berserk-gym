@@ -1,5 +1,5 @@
 .modal-content {
-    background-color: #282c34; 
+    background-color: #333; 
     color: white; 
   }
   
@@ -9,21 +9,25 @@
   
   .modal-title {
     color: #f58424; 
+    
   }
   
   .form-control {
-    background-color: #373940; 
+    background-color: #1b1b1d; 
     color: white; 
   }
   
   .form-select,
-  .btn-primary {
+  .btn-custom {
     background-color: #f58424; 
     color: white; 
   }
-  
   .form-select:focus,
-  .btn-primary:focus {
+  .btn-custom:hover {
+    background-color: #f69a49;  
+  }
+  .form-select:focus,
+  .btn-custom:focus {
     border-color: #f58424; 
     box-shadow: 0 0 0 0.2rem rgba(245, 132, 36, 0.25); 
   }
