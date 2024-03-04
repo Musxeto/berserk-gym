@@ -8,7 +8,8 @@ const WhyUs = () => {
     <>
       <div className="container-fluid">
         <div className="why-us text-center">
-          <h2>WHY BERSERK?</h2>
+          <div className="blur why-us-blur"></div>
+          <div className="why-us-heading">Why Berserk?</div>
         </div>
         <br />
         <div className="row justify-content-around">

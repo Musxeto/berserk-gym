@@ -3,25 +3,32 @@ import { FaDumbbell } from "react-icons/fa";
 import "./WhyUs.css"; // Assuming you have a CSS file for additional styling
 
 const WhyUsReasons = () => {
+  const blackIconStyle = {
+    color: "#e07000",
+  };
+
   return (
     <div>
-      <h3>At Berserk Gym</h3>
+      <div className="list-heading">At Berserk Gym</div>
       <ul className="reasons-list">
         <li>
-          <FaDumbbell /> Strength Training, Yoga, Boxing, and MMA all in one
-          place.
+          <FaDumbbell style={blackIconStyle} /> Strength Training, Yoga, Boxing,
+          and MMA all in one place.
         </li>
         <li>
-          <FaDumbbell /> Free 1-Month Creatine Supply & Nutrition Programme.
+          <FaDumbbell style={blackIconStyle} /> Free 1-Month Creatine Supply &
+          Nutrition Programme.
         </li>
         <li>
-          <FaDumbbell /> Expert trainers for personalized guidance.
+          <FaDumbbell style={blackIconStyle} /> Expert trainers for personalized
+          guidance.
         </li>
         <li>
-          <FaDumbbell /> Friendly and motivating community.
+          <FaDumbbell style={blackIconStyle} /> Friendly and motivating
+          community.
         </li>
         <li>
-          <FaDumbbell /> Modern fitness equipment.
+          <FaDumbbell style={blackIconStyle} /> Modern fitness equipment.
         </li>
       </ul>
     </div>
