@@ -7,29 +7,18 @@ const WhyUsGallery = () => {
     <Container>
       <Row>
         {/* First Picture - Covers Complete Row */}
-        <Col xs={12}>
+        <Col xs={8}>
           <img
-            src="https://png.pngtree.com/background/20230516/original/pngtree-gym-with-many-weights-in-dark-lighting-picture-image_2611113.jpg"
+            src="https://www.villagegym.co.uk/media/5752/jebson-74.jpg"
             alt="First Image"
-            className="img-fluid custom-img"
+            className="img-fluid first custom-img"
           />
         </Col>
-      </Row>
-      <Row>
-        {/* Second Picture - Half Row */}
-        <Col xs={6}>
+        <Col xs={4}>
           <img
-            src="https://img.freepik.com/free-photo/low-angle-view-unrecognizable-muscular-build-man-preparing-lifting-barbell-health-club_637285-2497.jpg"
-            alt="Second Image"
-            className="img-fluid custom-img"
-          />
-        </Col>
-        {/* Third Picture - Half Row */}
-        <Col xs={6}>
-          <img
-            src="https://img.freepik.com/photos-premium/photo-jeune-homme-s-entrainant-dans-salle-sport_763111-16971.jpg"
-            alt="Third Image"
-            className="img-fluid custom-img"
+            src="https://images.unsplash.com/photo-1584466977773-e625c37cdd50?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVyc29uYWwlMjB0cmFpbmVyfGVufDB8fDB8fHww"
+            alt="second Image"
+            className="img-fluid second custom-img"
           />
         </Col>
       </Row>

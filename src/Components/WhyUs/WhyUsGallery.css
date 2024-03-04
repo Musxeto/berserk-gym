@@ -1,14 +1,12 @@
 /* WhyUsGallery.css */
 
-.custom-img {
-    height: 100%; /* Make the images fill the height of the container */
-    object-fit: cover; /* Ensure the images cover the entire container */
-    margin-top: 10px; /* Add margin between upper and lower images */
+.second{
+    height: 17rem; /* Make the images fill the height of the container */
+    object-fit: cover; 
   }
-  
-  /* If you want to set a specific height for the last two images, you can use the following CSS */
-  .custom-img:nth-child(2),
-  .custom-img:nth-child(3) {
-    height: 200px; /* Set the desired height for the last two images */
+  .first{
+    margin-bottom: 1rem;
+    height: 17rem;
+    object-fit: cover;
+    object-position: left;
   }
-  
