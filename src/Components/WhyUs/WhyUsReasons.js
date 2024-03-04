@@ -5,19 +5,23 @@ import "./WhyUs.css"; // Assuming you have a CSS file for additional styling
 const WhyUsReasons = () => {
   return (
     <div>
-      <h3>Reasons to Choose Berserk Gym</h3>
+      <h3>At Berserk Gym</h3>
       <ul className="reasons-list">
         <li>
-          <FaDumbbell /> State-of-the-art fitness equipment.
+          <FaDumbbell /> Strength Training, Yoga, Boxing, and MMA all in one
+          place.
+        </li>
+        <li>
+          <FaDumbbell /> Free 1-Month Creatine Supply & Nutrition Programme.
         </li>
         <li>
           <FaDumbbell /> Expert trainers for personalized guidance.
         </li>
         <li>
-          <FaDumbbell /> Diverse and engaging workout programs.
+          <FaDumbbell /> Friendly and motivating community.
         </li>
         <li>
-          <FaDumbbell /> Friendly and motivating community.
+          <FaDumbbell /> Modern fitness equipment.
         </li>
       </ul>
     </div>

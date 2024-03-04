@@ -9,6 +9,7 @@
     "emailjs-com": "^3.2.0",
     "particles.js": "^2.0.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
     "react-scripts": "5.0.1",

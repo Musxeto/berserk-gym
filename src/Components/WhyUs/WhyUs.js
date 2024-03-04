@@ -7,13 +7,16 @@ const WhyUs = () => {
   return (
     <>
       <div className="container-fluid">
-        <div className="#why-us">WHY BERSERK?</div>
+        <div className="why-us text-center">
+          <h2>WHY BERSERK?</h2>
+        </div>
+        <br />
         <div className="row justify-content-around">
           <div className="col-lg-6 col-md-6 col-sm-12">
-            <WhyUsReasons />
+            <WhyUsGallery />
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">
-            <WhyUsGallery />
+            <WhyUsReasons />
           </div>
         </div>
       </div>
