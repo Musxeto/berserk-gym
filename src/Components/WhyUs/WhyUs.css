@@ -1,0 +1,10 @@
+.reasons-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .reasons-list li {
+    margin-bottom: 10px; 
+  }
+  
