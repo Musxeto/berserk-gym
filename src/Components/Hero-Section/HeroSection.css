@@ -150,22 +150,7 @@
       flex-direction: column;
       margin: 0;
     }
-    .orange-bubble {
-      position: absolute;
-      top: 64%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 360px;
-      height: 190px;
-      background: radial-gradient(circle at center, rgba(255, 128, 0, 0.05)0%, rgba(0, 0, 0, 0.0) 100%);
-      border-radius: 20%;
-      z-index: -1;
-      
-    }
 
-
-
-    
     @keyframes floatAnimation {
       0%, 100% {
         transform: translate(-50%, -50%) translateY(0);
@@ -189,7 +174,7 @@
   
     .body-builder {
       margin-left: 6.5rem;
-      margin-top: 3rem;
+      margin-top: 3.5rem;
     }
    
     .body-builder::before {
@@ -199,13 +184,14 @@
       left: 0;
       width: 50%;
       height: 100%;
-      background: linear-gradient(135deg, #e07000, #f58424);
+      background: transparent;
       z-index: -1;
       border-radius: 1rem; 
     }
     .body-builder > img {
       align-self: center;
-      height: 13rem;
+      height: 12.5rem;
+      opacity: 60%;
     }
   
     .hero-section {
@@ -224,7 +210,7 @@
       width: max-content;
       margin-top: 11vh;
       margin-bottom: 5vh;
-      font-size: 2.5vh;
+      font-size: 2.1vh;
       text-align: center; 
       margin-left: auto; 
       margin-right: auto; 
@@ -234,13 +220,13 @@
       font-size: 2rem;
       text-align: center;
       align-items: center;
-      text-shadow: 0 0 60px #e07000; /* Add glowing effect */
+      text-shadow: 0 0 60px #f59d45; /* Add glowing effect */
     }
   
     .description {
       margin-top: 0.5rem;
       font-size: 0.9rem;
-      text-shadow: 0 0 60px #f77e04;
+      /* text-shadow: 0 0 60px #ffba76; */
     }
   
     
@@ -252,15 +238,15 @@
       z-index: -1;
     }
   
-    .body-builder::before {
+    /* .row::before {
       content: '';
       position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: transparent;
+      top: 44%;
+      left: 5%;
+      width: 90%;
+      height: 41%;
+      background: linear-gradient(135deg, #e07000, #f58424);
       z-index: -1;
       border-radius: 1rem;
-    }
+    } */
   }  

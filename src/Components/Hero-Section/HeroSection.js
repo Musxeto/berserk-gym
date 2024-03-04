@@ -4,7 +4,7 @@ import "./HeroSection.css";
 const HeroSection = () => {
   return (
     <div className="container-fluid hero-section">
-      <div className="orange-bubble d-lg-none"></div>
+      <div className="orange-bubble d-lg-none d-md-none"></div>
       <div className="row no-gutters">
         <div className="col-md-8 col-12 left">
           <div className="loading-beast">
