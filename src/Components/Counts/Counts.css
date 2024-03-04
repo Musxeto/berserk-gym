@@ -28,15 +28,16 @@
   .counts {
     flex-direction: row;
     align-items: center;
+    margin-top: 3rem;
   }
   .count:last-child{
     margin-right: 0;
   }
   .numbers{
-    font-size: 0.7rem;
+    font-size: 1.4rem;
   }
   .text{
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
   .blur-counts{
     top: 12;

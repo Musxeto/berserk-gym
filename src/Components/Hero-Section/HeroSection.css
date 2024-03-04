@@ -165,7 +165,8 @@
       display:inline;
     }
     .cta-buttons {
-      margin-top: 2rem;
+      margin-top: 4rem;
+      margin-bottom: 3em;
     }
   
     .cta-buttons button {
@@ -191,7 +192,7 @@
     }
     .body-builder > img {
       align-self: center;
-      height: 12.5rem;
+      height: 13.6rem;
       opacity: 60%;
     }
   
@@ -209,34 +210,35 @@
     .loading-beast {
       align-self: center;
       width: max-content;
-      margin-top: 11vh;
-      margin-bottom: 5vh;
+      margin-top: 15vh;
+      margin-bottom: 10vh;
       font-size: 2.1vh;
       text-align: center; 
       margin-left: auto; 
       margin-right: auto; 
     }
     .hero-text {
-      margin-top: 4rem;
-      font-size: 2rem;
+      margin-top: 3rem;
+      font-size: 2.3rem;
       text-align: center;
       align-items: center;
-      /* text-shadow: 0 0 60px #f59d45; */
+       text-shadow: 0 0 60px #f59d45; 
     }
   
     .description {
-      margin-top: 0.5rem;
-      font-size: 0.9rem;
-      /* text-shadow: 0 0 60px #ffba76; */
+      margin-top: 5rem;
+      font-size: 1.6rem;
+       text-shadow: none; 
     }
   
     
     .body-builder {
       position: absolute;
-      top: 50%;
+      top: 40%;
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: -1;
+      border-bottom: #e07000 3px solid;
     }
   
     /* .row::before {

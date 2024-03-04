@@ -76,19 +76,19 @@ function Counts() {
       <div className="blur blur-counts"></div>
       <div id="counts-section" className="container counts">
         <div className="row justify-content-around ">
-          <div className="count col-lg-3 col-md-3 col-sm-3">
+          <div className="count col-lg-3 col-md-3 col-sm-6">
             <div className="numbers ">{trainersCount}+</div>
             <div className="text">Trainers</div>
           </div>
-          <div className="count col-lg-3 col-md-3 col-sm-3">
+          <div className="count col-lg-3 col-md-3 col-sm-6">
             <div className="numbers ">{membersCount}+</div>
             <div className="text">Members</div>
           </div>
-          <div className="count col-lg-3 col-md-3 col-sm-3">
+          <div className="count col-lg-3 col-md-3 col-sm-6">
             <div className="numbers ">{lbsLostCount}+</div>
             <div className="text">lbs Lost</div>
           </div>
-          <div className="count col-lg-3 col-md-3 col-sm-3">
+          <div className="count col-lg-3 col-md-3 col-sm-6">
             <div className="numbers ">{fitnessProgramsCount}+</div>
             <div className="text">Programs</div>
           </div>

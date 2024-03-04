@@ -3,6 +3,32 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./WhyUsGallery.css"; // Import the custom CSS file
 
 const WhyUsGallery = () => {
+  document.addEventListener("scroll", function () {
+    var firstImage = document.querySelector(".first");
+    var secondImage = document.querySelector(".second");
+
+    // Check if the element is in the viewport
+    function isInViewport(element) {
+      var rect = element.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <=
+          (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <=
+          (window.innerWidth || document.documentElement.clientWidth)
+      );
+    }
+
+    // Add the 'animated' class when the element is in the viewport
+    if (isInViewport(firstImage)) {
+      firstImage.classList.add("animated");
+    }
+
+    if (isInViewport(secondImage)) {
+      secondImage.classList.add("animated");
+    }
+  });
   return (
     <Container>
       <Row>

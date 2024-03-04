@@ -9,7 +9,7 @@ const WhyUsReasons = () => {
 
   return (
     <div>
-      <div className="list-heading">At Berserk Gym</div>
+      <div className="list-heading align-text-center">At Berserk Gym</div>
       <ul className="reasons-list">
         <li>
           <FaDumbbell style={blackIconStyle} /> Strength Training, Yoga, Boxing,
