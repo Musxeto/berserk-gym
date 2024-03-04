@@ -18,3 +18,10 @@ body {
     -webkit-text-stroke-color: white;
 }
 
+.blur{
+    background-color: rgba(224, 112, 0, 0.69);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(212px);
+    z-index: -9;
+}

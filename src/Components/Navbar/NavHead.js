@@ -10,7 +10,7 @@ function NavHead() {
     const handleScroll = () => {
       const scrollY = window.scrollY;
 
-      if (scrollY > 50) {
+      if (scrollY > 30) {
         setNavbarBg("bg-black");
       } else {
         setNavbarBg("bg-transparent");

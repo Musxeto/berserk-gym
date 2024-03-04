@@ -220,7 +220,7 @@
       font-size: 2rem;
       text-align: center;
       align-items: center;
-      text-shadow: 0 0 60px #f59d45; /* Add glowing effect */
+      /* text-shadow: 0 0 60px #f59d45; */
     }
   
     .description {

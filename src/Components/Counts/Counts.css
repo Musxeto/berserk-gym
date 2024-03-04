@@ -1,8 +1,47 @@
-.counts{
-    display: flex;
+
+.count {
+  text-align: center;
+  margin: 0.5rem; /* Margin between count boxes */
+  width: max-content;
 }
-.count{
-    width: 100vh;
-    height: 20px;
-    background-color: black;
+.count:last-child{
+  margin-right: 0;
+}
+.numbers {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 1.5rem;
+  margin-top: 0.1rem;
+  color: #e07000;
+}
+.blur-counts{
+  top: 0.1;
+  width: 23rem;
+  height: 30rem;
+  left: 0;
+}
+/* Responsive styles */
+@media only screen and (max-width: 767px) {
+  .counts {
+    flex-direction: row;
+    align-items: center;
+  }
+  .count:last-child{
+    margin-right: 0;
+  }
+  .numbers{
+    font-size: 0.7rem;
+  }
+  .text{
+    font-size: 0.5rem;
+  }
+  .blur-counts{
+    top: 12;
+    width: 10rem;
+    height: 8rem;
+    left: 0;
+  }
 }
