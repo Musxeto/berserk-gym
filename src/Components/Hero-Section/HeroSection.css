@@ -222,13 +222,13 @@
       font-size: 2.3rem;
       text-align: center;
       align-items: center;
-       text-shadow: 0 0 60px #f59d45; 
+      text-shadow: 0 0 60px #f59d45; 
     }
   
     .description {
       margin-top: 5rem;
       font-size: 1.6rem;
-       text-shadow: none; 
+      text-shadow: none; 
     }
   
     

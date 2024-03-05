@@ -13,6 +13,7 @@
   font-size: 1.8rem;
   color: #e07000;
   max-width: fit-content;
+  text-shadow: 0 0 60px #f59d45;
 }
 
 .reasons-list {
