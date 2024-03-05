@@ -22,6 +22,8 @@
   }
   
   .card-custom {
+    
+    padding: 1.5rem;
     width: 18rem;
     height: 20rem;
     background-color: rgba(199, 194, 191, 0.5);
@@ -40,17 +42,17 @@
    
   }
   
-  
   .card-icon {
-   
+   font-size: 1.7rem;
   }
   
   .card-heading {
-   
+    font-size: 1.2rem;
   }
-  
+
   .card-description {
-    
+   color: #e4e4e4; 
+   font-size: 1rem;
   }
   
   @media only screen and (max-width: 767px) {
