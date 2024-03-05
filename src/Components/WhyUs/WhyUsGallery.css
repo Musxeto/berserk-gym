@@ -1,0 +1,12 @@
+/* WhyUsGallery.css */
+
+.second{
+    height: 23rem; /* Make the images fill the height of the container */
+    object-fit: cover; 
+  }
+  .first{
+    margin-bottom: 1rem;
+    height: 23rem;
+    object-fit: cover;
+    object-position: left;
+  }

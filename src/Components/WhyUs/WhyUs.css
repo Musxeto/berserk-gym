@@ -1,0 +1,72 @@
+.why-us-heading {
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  font-size: 3rem;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px #e07000 solid ;
+  text-shadow: 0px 0px 70px #e07000;
+}
+
+.list-heading{
+  font-size: 2.4rem;
+  color: #e07000;
+  max-width: fit-content;
+  text-shadow: 0 0 60px #f59d45;
+  margin-bottom: 1rem;
+  padding: 0;
+  top: 0;
+  margin-top: -0.9rem;
+  margin-left: 1.8rem;
+}
+
+.reasons-list {
+  list-style: none;
+  padding-top: 1rem;
+  margin: 0;
+}
+
+.reasons-list li {
+  margin-bottom: 1rem; 
+  font-size: 1.7rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .why-us-heading {
+    margin-top: 3rem;
+    margin-bottom: 1.7rem;
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 0px #e07000;
+  }
+  
+  .list-heading{
+    font-size: 1.2rem;
+    color: #e07000;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .reasons-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .reasons-list li {
+    margin-bottom: 1rem; 
+    font-size: 0.9rem;
+  }
+  .second{
+    height: 15rem; /* Make the images fill the height of the container */
+    object-fit: cover; 
+  }
+  .first{
+    margin-bottom: 1rem;
+    height: 15rem;
+    object-fit: cover;
+    object-position: left;
+  }
+}

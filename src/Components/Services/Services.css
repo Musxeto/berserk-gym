@@ -1,0 +1,146 @@
+.services {
+    margin-top: 8rem;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  
+  .blur-services{
+    width: 30rem;
+    height: 20rem;
+  }
+  .heading-big {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+  }
+  .heading-small{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: transparent;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 0px 0px 50px #e07000;
+    margin-bottom: 2.5rem;
+  }
+  
+  .card-custom {
+    padding: 1.5rem;
+    width: 18rem;
+    height: 20rem;
+    background-color: rgba(199, 194, 191, 0.5);
+    border: none;
+    border-radius: none;
+    box-shadow: 0px 0px 60x black;
+    transition: 0.3s ease;
+    margin-bottom: 1rem;
+  }
+  
+  .card-custom:hover {
+    background: linear-gradient(to right, rgb(255, 139, 38), rgba(255, 119, 0, 0.8));
+    border: none;
+    border-radius: none;
+  }
+  
+  .card-icon {
+   font-size: 1.7rem;
+   margin-bottom: 0.5rem;
+   animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+    color: #ffffff;
+  }
+  40% {
+    transform: translateY(-20px);
+    color: #e8933e;
+  }
+  60% {
+    transform: translateY(-10px);
+    color: #ffa244;
+  }
+}
+  
+  .card-heading {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-description {
+   color: #e4e4e4; 
+   font-size: 1rem;
+   margin-bottom: 1rem;
+  }
+  .join-now{
+    transition: all 0.2s;
+  }
+  .join-now:hover{
+    font-size: 1.1rem;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .services {
+        margin-top: 6rem;
+        align-items: center;
+        margin-bottom: 3rem;
+      }
+      
+      .blur-services{
+        width: 15rem;
+        height: 10rem;
+      }
+      .heading-big {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+      }
+      .heading-small{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        color: transparent;
+        margin-bottom: 2.5rem;
+      }
+      
+      .card-custom {
+        padding: 1rem;
+        width: 15rem;
+        height: 20rem;
+        background-color: rgba(199, 194, 191, 0.5);
+        margin: none;
+        margin-bottom: 1rem;
+      }
+      
+      .card-custom:hover {
+        background: linear-gradient(to right, rgb(255, 139, 38), rgba(255, 119, 0, 0.8));
+        border: none;
+        border-radius: none;
+      }
+      
+      .card-icon {
+       font-size: 1.7rem;
+       margin-bottom: 0.5rem;
+    }
+    
+      
+      .card-heading {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+    
+      .card-description {
+       color: #e4e4e4; 
+       font-size: 1rem;
+       margin-bottom: 1rem;
+      }
+      .join-now{
+        transition: all 0.2s;
+      }
+      .join-now:hover{
+        font-size: 1.1rem;
+      }
+  }
+  
