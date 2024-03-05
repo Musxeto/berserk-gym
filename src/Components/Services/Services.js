@@ -11,6 +11,7 @@ import "./Services.css";
 const Services = () => {
   return (
     <div className="services text-center">
+      <div className="blur blur-services"></div>
       <div className="heading-big">EXPLORE OUR SERVICES</div>
       <div className="heading-small">FOR A BETTER AND HEALTHY LIFESTYLE</div>
       <div className="container-fluid">
@@ -84,8 +85,7 @@ const Services = () => {
             <div className="card-description">
               Shed excess fat and achieve your weight loss goals with our
               targeted fat loss programs. Our trainers will guide you through
-              effective workouts and provide nutrition advice for lasting
-              results.
+              effective workouts for lasting results.
             </div>
             <div className="join-now">
               Join Now <FaArrowRight />
