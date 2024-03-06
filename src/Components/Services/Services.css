@@ -1,5 +1,5 @@
 .services {
-    margin-top: 8rem;
+    margin-top: 5rem;
     align-items: center;
     margin-bottom: 3rem;
   }
@@ -9,7 +9,7 @@
     height: 20rem;
   }
   .heading-big {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     font-size: 2.5rem;
     color: #ffffff;
     position: relative;
@@ -17,16 +17,16 @@
   }
   .heading-small{
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 1rem;
     font-size: 2rem;
     color: transparent;
     -webkit-text-stroke-width: 0.7px;
     -webkit-text-stroke-color: white;
     text-shadow: 0px 0px 50px #e07000;
-    margin-bottom: 2.5rem;
+    margin-bottom: 4rem;
   }
   
   .card-custom {
+    align-items: center;
     padding: 1.5rem;
     width: 18rem;
     height: 20rem;
@@ -75,12 +75,23 @@
    font-size: 1rem;
    margin-bottom: 1rem;
   }
-  .join-now{
+  .btn-container {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-join-now {
     transition: all 0.2s;
-  }
-  .join-now:hover{
+    background-color: transparent;
+}
+
+.btn-join-now:hover {
     font-size: 1.1rem;
-  }
+    background-color: transparent;
+}
+
   
   @media only screen and (max-width: 767px) {
     .services {
@@ -136,10 +147,10 @@
        font-size: 1rem;
        margin-bottom: 1rem;
       }
-      .join-now{
+      .btn-join-now{
         transition: all 0.2s;
       }
-      .join-now:hover{
+      .btn-join-now:hover{
         font-size: 1.1rem;
       }
   }

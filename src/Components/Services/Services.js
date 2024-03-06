@@ -30,8 +30,18 @@ const Services = () => {
               training programs. Our expert trainers will guide you through
               effective workouts tailored to your fitness goals.
             </div>
-            <div className="join-now">
-              Join Now <FaArrowRight />
+            <div className="btn-container">
+              {" "}
+              <button
+                className="btn btn-join-now"
+                data-bs-toggle="modal"
+                data-bs-target="#SignUpModal"
+              >
+                Join Now{" "}
+                <span>
+                  <FaArrowRight />
+                </span>
+              </button>
             </div>
           </div>
 
@@ -49,8 +59,18 @@ const Services = () => {
               Whether you prefer running, cycling, or high-intensity interval
               training, we've got the perfect cardio exercises for you.
             </div>
-            <div className="join-now">
-              Join Now <FaArrowRight />
+            <div className="btn-container">
+              {" "}
+              <button
+                className="btn btn-join-now"
+                data-bs-toggle="modal"
+                data-bs-target="#SignUpModal"
+              >
+                Join Now{" "}
+                <span>
+                  <FaArrowRight />
+                </span>
+              </button>
             </div>
           </div>
 
@@ -68,8 +88,18 @@ const Services = () => {
               programs combine strength, agility, and endurance exercises to
               push your limits and achieve peak fitness.
             </div>
-            <div className="join-now">
-              Join Now <FaArrowRight />
+            <div className="btn-container">
+              {" "}
+              <button
+                className="btn btn-join-now"
+                data-bs-toggle="modal"
+                data-bs-target="#SignUpModal"
+              >
+                Join Now{" "}
+                <span>
+                  <FaArrowRight />
+                </span>
+              </button>
             </div>
           </div>
 
@@ -87,8 +117,18 @@ const Services = () => {
               targeted fat loss programs. Our trainers will guide you through
               effective workouts for lasting results.
             </div>
-            <div className="join-now">
-              Join Now <FaArrowRight />
+            <div className="btn-container">
+              {" "}
+              <button
+                className="btn btn-join-now"
+                data-bs-toggle="modal"
+                data-bs-target="#SignUpModal"
+              >
+                Join Now{" "}
+                <span>
+                  <FaArrowRight />
+                </span>
+              </button>
             </div>
           </div>
         </div>
