@@ -82,12 +82,13 @@
     align-items: center;
 }
 
-.btn-join-now {
+.join-now {
     transition: all 0.2s;
     background-color: transparent;
+    color: #e4e4e4;
 }
 
-.btn-join-now:hover {
+.join-now:hover {
     font-size: 1.1rem;
     background-color: transparent;
 }

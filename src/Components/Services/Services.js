@@ -33,7 +33,7 @@ const Services = () => {
             <div className="btn-container">
               {" "}
               <button
-                className="btn btn-join-now"
+                className="btn join-now"
                 data-bs-toggle="modal"
                 data-bs-target="#SignUpModal"
               >
@@ -62,7 +62,7 @@ const Services = () => {
             <div className="btn-container">
               {" "}
               <button
-                className="btn btn-join-now"
+                className="btn join-now"
                 data-bs-toggle="modal"
                 data-bs-target="#SignUpModal"
               >
@@ -91,7 +91,7 @@ const Services = () => {
             <div className="btn-container">
               {" "}
               <button
-                className="btn btn-join-now"
+                className="btn join-now"
                 data-bs-toggle="modal"
                 data-bs-target="#SignUpModal"
               >
@@ -120,7 +120,7 @@ const Services = () => {
             <div className="btn-container">
               {" "}
               <button
-                className="btn btn-join-now"
+                className="btn join-now"
                 data-bs-toggle="modal"
                 data-bs-target="#SignUpModal"
               >

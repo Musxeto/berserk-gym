@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gallery {
+    display: flex;
+    flex-direction: column; /* Assuming you want to stack items vertically */
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.gallery-heading{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    align-self: center;
+}
+.container{
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    gap: 20px;
+}
+.coloumn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.photo>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.photo>img:hover{
+}
