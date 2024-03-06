@@ -3,6 +3,7 @@ import Counts from "./Components/Counts/Counts.js";
 import Gallery from "./Components/Gallery/Gallery.js";
 import HeroSection from "./Components/Hero-Section/HeroSection.js";
 import NavHead from "./Components/Navbar/NavHead.js";
+import Pricing from "./Components/Pricing/Pricing.js";
 import Services from "./Components/Services/Services.js";
 import WhyUs from "./Components/WhyUs/WhyUs.js";
 
@@ -15,6 +16,7 @@ function App() {
       <WhyUs />
       <Services />
       <Gallery />
+      <Pricing />
     </div>
   );
 }
