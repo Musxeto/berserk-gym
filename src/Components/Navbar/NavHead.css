@@ -56,16 +56,17 @@
     transform: rotate(45deg) translate(-5px, -6px);
   }
   .btn-join-now {
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
-  margin-right: 20px; 
-  background-color: #f58424;
-  color: white;
-  border-radius: 5px;
-  text-decoration: none;
-  font-family: 'Oswald', sans-serif;
-  transition: background-color 0.3s ease;
+ 
+  padding: 0.7rem;
+    margin-right: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e07000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .btn-join-now i {
@@ -73,7 +74,7 @@
 }
 
 .btn-join-now:hover {
-  background-color: #e07000; 
+  background-color: #f58424;
 }
 .logo {
   height: 65%;

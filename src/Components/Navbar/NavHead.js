@@ -26,6 +26,9 @@ function NavHead() {
 
   const toggleNav = () => {
     setNavOpen(!isNavOpen);
+    if (isNavOpen === false) setNavbarBg("bg-black");
+    if (isNavOpen === true && window.scrollY < 30)
+      setNavbarBg("bg-transparent");
   };
 
   return (
