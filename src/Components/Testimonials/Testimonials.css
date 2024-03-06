@@ -1,51 +1,73 @@
-/* Testimonials.css */
-
 #testimonial {
-    text-align: center;
-    padding: 50px 0;
-  }
-  
-  .testimonials__container {
-    width: 80%;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  h5 {
-    font-size: 18px;
-    color: #333;
-  }
-  
-  h2 {
-    font-size: 32px;
-    margin-bottom: 30px;
-    color: #333;
-  }
-  
-  .testimonial {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .client__avatar img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-  }
-  
-  .clients__name {
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .clients__review {
-    font-size: 16px;
-    color: #555;
-    line-height: 1.6;
-  }
-  
+  text-align: center;
+  padding: 5rem 0; /* Adjust padding as needed */
+  margin-top: -3rem;
+}
+
+.testimonials__container {
+  width: 100%;
+  max-width: 30rem;
+  height: 19rem;
+  margin: 0 auto;
+}
+
+.heading-big {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+  border-bottom: #e07000 1px solid;
+}
+.heading-small{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: transparent;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 0px 0px 50px #e07000;
+  margin-bottom: 4rem;
+}
+
+.testimonial {
+  background-color: rgba(0, 0, 0, 0.1);  /* Adjust the background color to your orange theme */
+  border-radius: 5%;
+  padding: 1.5rem;
+  box-shadow: 0 0 70px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Center the testimonial content horizontally */
+}
+
+.client__avatar img {
+  object-fit: cover;
+  object-position: top;
+  width:5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.clients__name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff; /* Adjust the color to match your theme */
+  margin-bottom: 1rem;
+}
+
+.clients__review {
+  font-size: 1rem;
+  color: #ccc; /* Adjust the color to match your theme */
+  line-height: 1.6;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  margin-top: 3rem;
+  background-color: #ffbd7c; /* Adjust the color to match your theme */
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #cda47c; /* Adjust the active color to match your theme */
+}
+.blur-test{
+  width: 10rem;
+  height: 45rem;
+}
