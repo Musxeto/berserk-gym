@@ -1,4 +1,8 @@
-
+.counts{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
 .count {
   text-align: center;
   margin: 0.5rem; /* Margin between count boxes */

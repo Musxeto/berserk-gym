@@ -22,26 +22,25 @@ function Counts() {
       const step = 1;
 
       setTrainersCount((prevCount) =>
-        Math.min(prevCount + step, targetValues.trainersCount)
+        prevCount < targetValues.trainersCount
+          ? prevCount + step
+          : targetValues.trainersCount
       );
       setMembersCount((prevCount) =>
-        Math.min(prevCount + step, targetValues.membersCount)
+        prevCount < targetValues.membersCount
+          ? prevCount + step + 2
+          : targetValues.membersCount
       );
       setLbsLostCount((prevCount) =>
-        Math.min(prevCount + step + 40, targetValues.lbsLostCount)
+        prevCount < targetValues.lbsLostCount
+          ? prevCount + step + 40
+          : targetValues.lbsLostCount
       );
       setFitnessProgramsCount((prevCount) =>
-        Math.min(prevCount + step, targetValues.fitnessProgramsCount)
+        prevCount < targetValues.fitnessProgramsCount
+          ? prevCount + step
+          : targetValues.fitnessProgramsCount
       );
-
-      if (
-        trainersCount < targetValues.trainersCount ||
-        membersCount < targetValues.membersCount ||
-        lbsLostCount < targetValues.lbsLostCount ||
-        fitnessProgramsCount < targetValues.fitnessProgramsCount
-      ) {
-        requestAnimationFrame(updateCounts);
-      }
     };
 
     const handleScroll = () => {
@@ -55,41 +54,35 @@ function Counts() {
 
     window.addEventListener("scroll", handleScroll);
 
-    if (isInView || window.screen.width < 1100) {
-      interval = setInterval(updateCounts, 200);
+    if (isInView) {
+      interval = setInterval(updateCounts, 10);
     }
 
     return () => {
       clearInterval(interval);
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [
-    isInView,
-    targetValues.trainersCount,
-    targetValues.membersCount,
-    targetValues.lbsLostCount,
-    targetValues.fitnessProgramsCount,
-  ]);
+  }, [isInView, targetValues]);
 
   return (
     <>
       <div className="blur blur-counts"></div>
       <div id="counts-section" className="container counts">
-        <div className="row justify-content-around ">
+        <div className="row justify-content-around">
           <div className="count col-lg-3 col-md-3 col-sm-6">
-            <div className="numbers ">{trainersCount}+</div>
+            <div className="numbers">{trainersCount}+</div>
             <div className="text">Trainers</div>
           </div>
           <div className="count col-lg-3 col-md-3 col-sm-6">
-            <div className="numbers ">{membersCount}+</div>
+            <div className="numbers">{membersCount}+</div>
             <div className="text">Members</div>
           </div>
           <div className="count col-lg-3 col-md-3 col-sm-6">
-            <div className="numbers ">{lbsLostCount}+</div>
+            <div className="numbers">{lbsLostCount}+</div>
             <div className="text">lbs Lost</div>
           </div>
           <div className="count col-lg-3 col-md-3 col-sm-6">
-            <div className="numbers ">{fitnessProgramsCount}+</div>
+            <div className="numbers">{fitnessProgramsCount}+</div>
             <div className="text">Programs</div>
           </div>
         </div>
