@@ -56,8 +56,8 @@ const Services = () => {
             <div className="card-heading">Cardio</div>
             <div className="card-description">
               Boost your cardiovascular health with our dynamic cardio workouts.
-              Whether you prefer running, cycling, or high-intensity interval
-              training, we've got the perfect cardio exercises for you.
+              Whether you prefer running, cycling, or HIIT, we've got the
+              perfect cardio exercises for you.
             </div>
             <div className="btn-container">
               {" "}

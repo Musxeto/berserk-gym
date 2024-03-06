@@ -14,6 +14,7 @@
     color: #ffffff;
     position: relative;
     display: inline-block;
+    border-bottom: #e07000 1px solid;
   }
   .heading-small{
     font-family: Arial, Helvetica, sans-serif;
@@ -36,6 +37,9 @@
     box-shadow: 0px 0px 60x black;
     transition: 0.3s ease;
     margin-bottom: 1rem;
+  }
+  .card-custom:last-child{
+    margin-bottom: none;
   }
   
   .card-custom:hover {
@@ -124,6 +128,9 @@
         background-color: rgba(199, 194, 191, 0.5);
         margin: none;
         margin-bottom: 1rem;
+      }
+      .card-custom:last-child{
+        margin-bottom: none;
       }
       
       .card-custom:hover {
