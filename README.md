@@ -4,6 +4,8 @@ Welcome to the Berserk Gym website repository! This project is a modern and resp
 
 Live Demo: https://berserkgym.vercel.app
 
+## Screenshots
+
 ## Project Structure
 
 ### src/App.js
