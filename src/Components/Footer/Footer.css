@@ -82,7 +82,7 @@
   /* Media queries for responsiveness */
   @media only screen and (max-width: 767px) {
     .modern-footer {
-      padding: 2rem 0;
+      padding: 0rem 0;
     }
   
     .social-icons {
