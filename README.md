@@ -2,7 +2,18 @@
 
 Welcome to the Berserk Gym website repository! This project is a modern and responsive website for a fitness center, designed to showcase the gym's offerings, services, testimonials, and more. Below, you'll find an overview of the project structure and components.
 
+
 Live Demo: https://berserkgym.vercel.app
+
+## Screenshots
+
+![2024-03-07 (4)](https://github.com/Musxeto/berserk-gym/assets/138971833/a2ea66cb-7c2b-4def-b7d1-965e3e1986f1)
+![2024-03-07 (6)](https://github.com/Musxeto/berserk-gym/assets/138971833/d03a26b5-ce20-445c-a519-c19b7eb8d399)
+
+![2024-03-07 (5)](https://github.com/Musxeto/berserk-gym/assets/138971833/b24cbfd6-da6c-4fff-8000-2823ec34986c)
+
+![2024-03-07 (7)](https://github.com/Musxeto/berserk-gym/assets/138971833/46c3b2c9-00d2-45d8-9371-504fea5ce26d)
+
 
 ## Project Structure
 
