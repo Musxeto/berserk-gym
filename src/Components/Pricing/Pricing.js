@@ -22,7 +22,13 @@ const Pricing = () => {
                   <li>Personalized Nutrition Plan</li>
                 </ul>
                 <br />
-                <button className="btn btn-custom">Get Started</button>
+                <button
+                  className="btn btn-custom"
+                  data-bs-toggle="modal"
+                  data-bs-target="#SignUpModal"
+                >
+                  Get Started
+                </button>
               </div>
             </div>
           </div>
@@ -40,7 +46,13 @@ const Pricing = () => {
                   <li>Personalized Nutrition Plan</li>
                 </ul>
                 <br />
-                <button className="btn btn-custom">Get Started</button>
+                <button
+                  className="btn btn-custom"
+                  data-bs-toggle="modal"
+                  data-bs-target="#SignUpModal"
+                >
+                  Get Started
+                </button>
               </div>
             </div>
           </div>
@@ -59,7 +71,13 @@ const Pricing = () => {
                   <li>Personalized Nutrition Plan</li>
                 </ul>
                 <br />
-                <button className="btn btn-custom">Get Started</button>
+                <button
+                  className="btn btn-custom"
+                  data-bs-toggle="modal"
+                  data-bs-target="#SignUpModal"
+                >
+                  Get Started
+                </button>
               </div>
             </div>
           </div>

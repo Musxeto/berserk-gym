@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
-
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 const HeroSection = () => {
   return (
     <div className="container-fluid hero-section">
@@ -35,7 +35,18 @@ const HeroSection = () => {
             >
               Free Trial Pass
             </button>
-            <button className="btn outline-button">Explore Services</button>
+            <button className="btn outline-button">
+              <ScrollLink
+                to="services"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="no-deco"
+              >
+                Explore Services{" "}
+              </ScrollLink>
+            </button>
           </div>
         </div>
         <div className="col-md-4 col-12  d-md-block right">

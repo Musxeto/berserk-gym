@@ -51,6 +51,7 @@ function NavHead() {
               smooth={true}
               offset={-70}
               duration={500}
+              className="no-deco"
             >
               <a className="navbar-brand" onClick={scrollToTop}>
                 <img
@@ -86,6 +87,7 @@ function NavHead() {
                   smooth={true}
                   offset={-70}
                   duration={500}
+                  className="no-deco"
                 >
                   <a
                     className={`nav-link active ${
@@ -103,6 +105,7 @@ function NavHead() {
                   smooth={true}
                   offset={-70}
                   duration={500}
+                  className="no-deco"
                 >
                   <a
                     className={`nav-link why-us ${
@@ -120,6 +123,7 @@ function NavHead() {
                   smooth={true}
                   offset={-70}
                   duration={500}
+                  className="no-deco"
                 >
                   <a
                     className={`nav-link why-us ${
@@ -137,6 +141,7 @@ function NavHead() {
                   smooth={true}
                   offset={-70}
                   duration={500}
+                  className="no-deco"
                 >
                   <a
                     className={`nav-link why-us ${
@@ -154,6 +159,7 @@ function NavHead() {
                   smooth={true}
                   offset={-70}
                   duration={500}
+                  className="no-deco"
                 >
                   <a
                     className={`nav-link why-us ${
@@ -171,6 +177,7 @@ function NavHead() {
                   smooth={true}
                   offset={-70}
                   duration={500}
+                  className="no-deco"
                 >
                   <a
                     className={`nav-link why-us ${
