@@ -1,12 +1,20 @@
+// Footer.js
+
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "./Footer.css";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
 
 const Footer = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    // Add other form fields if needed
   });
 
   const [showAlert, setShowAlert] = useState({
@@ -54,16 +62,14 @@ const Footer = () => {
         }
       );
 
-    // Optionally, reset the form fields after submission
     setFormData({
       name: "",
       email: "",
-      // Reset other form fields if needed
     });
   };
 
   return (
-    <footer className="footer">
+    <footer className="modern-footer">
       <div className="container">
         <div className="row">
           {/* Contact Us */}
@@ -113,18 +119,17 @@ const Footer = () => {
             <h5>Follow Us</h5>
             <ul className="social-icons">
               <li>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-facebook"></i>
+                <a href="https://linkedin.com/in/mustafa-gm" target="_blank">
+                  <div className="icon">
+                    <FaLinkedin />
+                  </div>
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-instagram"></i>
+                <a href="https://github.com/musxeto" target="_blank">
+                  <div className="icon">
+                    <FaGithub />
+                  </div>
                 </a>
               </li>
             </ul>
@@ -153,10 +158,10 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="footer-bottom">
-        <div className="container">
-          <p>
-            &copy; {new Date().getFullYear()} Your Gym. All rights reserved.
-          </p>
+        <div title="contribute" className="container justify-content-center">
+          <a href="https://github.com/musxeto/berserk-gym.git" target="_blank">
+            &copy; {new Date().getFullYear()} Musxeto <FaGithub />
+          </a>
         </div>
       </div>
     </footer>

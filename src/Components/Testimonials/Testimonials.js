@@ -61,25 +61,28 @@ const Testimonials = () => {
       <div className="heading-big">TESTIMONIALS</div>
       <div className="heading-small">REVIEW FROM CLIENTS</div>
       <div className="blur blur-test"></div>
-      <Swiper
-        className="container testimonials__container"
-        pagination={{ clickable: true }}
-        modules={[Pagination]}
-      >
-        {data.map((dat, index) => {
-          return (
-            <SwiperSlide className="testimonial" key={index}>
-              <div className="client__avatar">
-                <img src={dat.img} alt="avatar" />
-              </div>
 
-              <h5 className="clients__name">{dat.name}</h5>
-              <small className="clients__review">{dat.review}</small>
-              <br />
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
+      <div className="container-fluid d-flex justify-space-between">
+        <Swiper
+          className="container testimonials__container"
+          pagination={{ clickable: true }}
+          modules={[Pagination]}
+        >
+          {data.map((dat, index) => {
+            return (
+              <SwiperSlide className="testimonial" key={index}>
+                <div className="client__avatar">
+                  <img src={dat.img} alt="avatar" />
+                </div>
+
+                <h5 className="clients__name">{dat.name}</h5>
+                <small className="clients__review">{dat.review}</small>
+                <br />
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </div>
     </section>
   );
 };

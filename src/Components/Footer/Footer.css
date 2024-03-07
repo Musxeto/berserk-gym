@@ -1,62 +1,94 @@
-.footer {
-    background-color: rgba(0, 0, 0, 0.1);
-    color: #fff;
-    z-index: -1;
-    margin-top: 13rem;
-  }
-  
-  .footer h5 {
-    color: #fff;
-  }
-  
-  .footer p {
-    color: #ccc;
-  }
+/* ModernFooter.css */
 
-  .btn-custom{
+.modern-footer {
+    background-color: rgba(1,1,1,0.3);
+    color: #fff;
+    padding: 0 0;
+  }
+  
+  .modern-footer h5 {
     color: #e07000;
   }
-
+  
   .social-icons {
     list-style: none;
     padding: 0;
+    display: flex;
+    gap: 10px;
   }
   
-  .social-icons li {
-    display: inline-block;
-    margin-right: 10px;
+  .social-icons a {
+    color: #fff;
   }
   
-  .social-icons i {
-    font-size: 24px;
+  /* Add specific styling for your social icons, adjust as needed */
+  .social-icons .icon {
+    font-size: 1.5rem;
+  }
+  .social-icons .icon:hover {
+    color: #e07000;
+  }
+  /* Additional styling for the Bootstrap alert */
+  .custom-alert {
+    margin-top: 20px;
   }
   
   .footer-bottom {
     background-color: #222;
-    padding: 10px 0;
-    color: #fff;
-    text-align: center;
-  }
-  .custom-alert {
-    background-color: #d17f23; 
-    color: #fff; 
-    border-color: #ffffff;
-    max-width: fit-content;
-  }
-  .btn-custom{
-    color: #fff;
-  }
-  .custom-alert .close {
+    
     position: relative;
-    background-color: transparent; /* Set to your desired background color */
-    border: none;
-    outline: none;
-    cursor: pointer;
-    color: inherit;
-    opacity: 1;
+    bottom: 0;
+    width: 100%;
   }
   
-  /* Style the close button on hover */
-  .custom-alert .close:hover {
-    opacity: 1;
+  .footer-bottom p {
+    margin: 0;
+    text-align: center;
   }
+  
+  .footer-bottom a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: -1rem;
+    font-size: 1.2rem;
+  }
+  /* Additional styling for the newsletter form */
+  .form-control {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .btn-custom {
+    background-color: #e07000;
+    color: #fff;
+  }
+  
+  .btn-custom:hover {
+    background-color: #f58424;
+  }
+
+
+
+  /* Adjust styling for your input group and subscribe button as needed */
+  .input-group {
+    width: 100%;
+  }
+  
+  /* Additional styling for the address and contact details */
+  .col-md-4 p {
+    line-height: 1.6;
+  }
+  
+  /* Media queries for responsiveness */
+  @media only screen and (max-width: 767px) {
+    .modern-footer {
+      padding: 2rem 0;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  
+    /* Add additional media query styles as needed */
+  }
+  

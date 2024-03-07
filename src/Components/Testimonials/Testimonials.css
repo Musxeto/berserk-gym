@@ -29,7 +29,11 @@
   text-shadow: 0px 0px 50px #e07000;
   margin-bottom: 4rem;
 }
-
+.heading-very-small{
+  font-size: 2rem;
+  color: #ccc;
+  margin-bottom: 4rem;
+}
 .testimonial {
   background-color: rgba(0, 0, 0, 0.1);  /* Adjust the background color to your orange theme */
   border-radius: 5%;
@@ -69,6 +73,6 @@
   background-color: #cda47c; /* Adjust the active color to match your theme */
 }
 .blur-test{
-  width: 10rem;
-  height: 35rem;
+  width: 8cm;
+  height: 30rem;
 }
