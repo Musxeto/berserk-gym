@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./NavHead.css";
 import SignUpModal from "./SignUpModal.js";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import "./NavHead.css";
 
 function NavHead() {
   const [navbarBg, setNavbarBg] = useState("bg-transparent");
@@ -29,20 +30,36 @@ function NavHead() {
     if (isNavOpen === false) setNavbarBg("bg-black");
     if (isNavOpen === true && window.scrollY < 30)
       setNavbarBg("bg-transparent");
+
+    // Close the navbar when a link is clicked
+    if (isNavOpen) {
+      setNavOpen(false);
+    }
   };
 
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
   return (
     <>
       <nav className={`navbar navbar-expand-md ${navbarBg} fixed-top`}>
         <div className="container-fluid">
           <div className="d-flex align-items-center">
-            <a className="navbar-brand" href="#">
-              <img
-                src="/berserk-gym.png"
-                alt="gym logo"
-                className="img-fluid logo"
-              />
-            </a>
+            <ScrollLink
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <a className="navbar-brand" onClick={scrollToTop}>
+                <img
+                  src="/berserk-gym.png"
+                  alt="gym logo"
+                  className="img-fluid logo"
+                />
+              </a>
+            </ScrollLink>
             <button
               className={`navbar-toggler navbar-toggler-light ${
                 isNavOpen ? "open" : ""
@@ -63,34 +80,106 @@ function NavHead() {
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
+                <ScrollLink
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  <a
+                    className={`nav-link active ${
+                      navbarBg === "bg-black" ? "text-light" : ""
+                    }`}
+                  >
+                    Home
+                  </a>
+                </ScrollLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link why-us" href="#">
-                  Why us?
-                </a>
+                <ScrollLink
+                  to="why-us"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  <a
+                    className={`nav-link why-us ${
+                      navbarBg === "bg-black" ? "text-light" : ""
+                    }`}
+                  >
+                    Why us?
+                  </a>
+                </ScrollLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Services
-                </a>
+                <ScrollLink
+                  to="services"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  <a
+                    className={`nav-link why-us ${
+                      navbarBg === "bg-black" ? "text-light" : ""
+                    }`}
+                  >
+                    Services
+                  </a>
+                </ScrollLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Gallery
-                </a>
+                <ScrollLink
+                  to="gallery"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  <a
+                    className={`nav-link why-us ${
+                      navbarBg === "bg-black" ? "text-light" : ""
+                    }`}
+                  >
+                    Gallery
+                  </a>
+                </ScrollLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
+                <ScrollLink
+                  to="pricing"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  <a
+                    className={`nav-link why-us ${
+                      navbarBg === "bg-black" ? "text-light" : ""
+                    }`}
+                  >
+                    Pricing
+                  </a>
+                </ScrollLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Testimonials
-                </a>
+                <ScrollLink
+                  to="testimonial"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  <a
+                    className={`nav-link why-us ${
+                      navbarBg === "bg-black" ? "text-light" : ""
+                    }`}
+                  >
+                    Testimonials
+                  </a>
+                </ScrollLink>
               </li>
             </ul>
             <button

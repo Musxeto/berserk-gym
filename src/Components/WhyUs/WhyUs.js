@@ -6,7 +6,7 @@ import WhyUsGallery from "./WhyUsGallery";
 const WhyUs = () => {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid" id="why-us">
         <div className="why-us text-center">
           <div className="blur why-us-blur"></div>
           <div className="why-us-heading">Why Berserk?</div>

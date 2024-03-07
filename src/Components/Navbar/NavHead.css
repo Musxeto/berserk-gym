@@ -13,8 +13,14 @@
   color: white !important;
   font-family: 'Oswald', sans-serif;
   transition: 0.3s;
+  text-decoration: none;
 }
-
+.nav-link {
+  text-decoration: none !important;
+}
+.navbar-nav .nav-link {
+  text-decoration: none !important;
+}
 .navbar a.nav-link:hover {
     font-size: 20px;
     color: #f58424 !important;
