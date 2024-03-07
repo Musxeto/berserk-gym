@@ -1,9 +1,10 @@
 /* ModernFooter.css */
 
 .modern-footer {
-    background-color: rgba(1,1,1,0.3);
+    background-color: rgba(1, 1, 1, 0.3);
     color: #fff;
-    padding: 0 0;
+    padding: 20px 0; /* Adjust the padding as needed */
+    overflow-x: hidden; /* Hide horizontal overflow */
   }
   
   .modern-footer h5 {
@@ -82,9 +83,18 @@
   /* Media queries for responsiveness */
   @media only screen and (max-width: 767px) {
     .modern-footer {
-      padding: 0rem 0;
-    }
-  
+        background-color: rgba(1, 1, 1, 0.3);
+        color: #fff;
+        padding: 20px 0; /* Adjust the padding as needed */
+        overflow-x: hidden; /* Hide horizontal overflow */
+      }
+  .newletter{
+    max-width: fit-content;
+    padding: none;
+  }
+  .form-control {
+    max-width: 10rem;
+  }
     .social-icons {
       justify-content: center;
     }

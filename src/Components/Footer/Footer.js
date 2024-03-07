@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
 
           {/* Newsletter */}
-          <div className="col-md-4">
+          <div className="col-md-4 newsletter">
             <h5>Newsletter</h5>
             <p>Subscribe to our newsletter for updates and special offers.</p>
             <form onSubmit={handleSubmit}>

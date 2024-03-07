@@ -234,11 +234,11 @@
     
     .body-builder {
       position: absolute;
-      top: 40%;
+      top: 30%;
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: -1;
-      border-bottom: #e07000 3px solid;
+      border-bottom: none;
     }
   
     /* .row::before {
