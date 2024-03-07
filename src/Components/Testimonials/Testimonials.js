@@ -11,6 +11,12 @@ import "swiper/css/pagination";
 
 const data = [
   {
+    img: "/noel.jpg",
+    name: "Noel Deyzel",
+    review:
+      "I joined the gym for its welcoming community, and I wasn't disappointed. The group classes are fun, and I've made great friends along my fitness journey.",
+  },
+  {
     img: "/lassi.jpg",
     name: "Abdullah Lassi",
     review:
@@ -22,12 +28,7 @@ const data = [
     review:
       "The gym is fantastic! The variety of equipment and classes cater to all fitness levels. The staff is friendly, and the facilities are always clean. Highly recommended!",
   },
-  {
-    img: "/noel.jpg",
-    name: "Noel Deyzel",
-    review:
-      "I joined the gym for its welcoming community, and I wasn't disappointed. The group classes are fun, and I've made great friends along my fitness journey.",
-  },
+
   {
     img: "/mus.jpg",
     name: "Mustafa (me)",
