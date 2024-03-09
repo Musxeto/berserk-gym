@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the Berserk Gym website project! This project is a personal endeavor to create a modern and dynamic website for a fictional gym, showcasing its services, testimonials, pricing, and more.
+Welcome to the Berserk Gym website project! This project is a personal endeavor to create a modern and dynamic website for a fictional gym, showcasing its services, testimonials, pricing, and much more.
 
 Live Demo: https://berserkgym.vercel.app
 
