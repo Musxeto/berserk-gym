@@ -89,11 +89,12 @@
         overflow-x: hidden; /* Hide horizontal overflow */
       }
   .newletter{
-    max-width: fit-content;
+    max-width: 100%;
     padding: none;
   }
   .form-control {
-    max-width: 10rem;
+    max-width: 17rem;
+    color: antiquewhite;
   }
     .social-icons {
       justify-content: center;
