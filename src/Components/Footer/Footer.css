@@ -85,8 +85,8 @@
     .modern-footer {
         background-color: rgba(1, 1, 1, 0.3);
         color: #fff;
-        padding: 20px 0; /* Adjust the padding as needed */
-        overflow-x: hidden; /* Hide horizontal overflow */
+        padding: 20px 0; 
+        overflow-x: hidden; 
       }
   .newletter{
     max-width: 100%;
