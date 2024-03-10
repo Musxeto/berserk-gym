@@ -45,3 +45,16 @@
     border-color: #d17f23;
   }
   
+  @media only screen and (max-width: 767px) {
+    .form-control {
+      min-width: 21rem;
+    }
+
+    .modal-content
+    .form-select,
+    .modal-content .btn-custom {
+      min-width: 21rem;
+    }
+    
+  
+  }
