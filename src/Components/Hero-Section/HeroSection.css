@@ -5,6 +5,7 @@
     align-items: center; 
     position: relative;
     z-index: 1; 
+    overflow-x: hidden;
   }
   
   .left {
@@ -123,6 +124,7 @@
     margin-left: 4rem;
     margin-top: 6rem;
     position: relative;
+    overflow-x: hidden;
   }
   
   .body-builder::before {
@@ -139,6 +141,7 @@
   
   .body-builder > img {
     height: 31.8rem;
+    overflow-x: hidden;
     z-index: 1; 
   }
   

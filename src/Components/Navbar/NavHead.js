@@ -190,11 +190,11 @@ function NavHead() {
               </li>
             </ul>
             <button
-              className="btn-join-now"
               data-bs-toggle="modal"
               data-bs-target="#SignUpModal"
+              className="btn btn-join"
             >
-              Join Now <i className="fas fa-arrow-right"></i>
+              Join Now
             </button>
           </div>
         </div>

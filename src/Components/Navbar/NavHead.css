@@ -61,25 +61,13 @@
   .navbar-toggler.open .bar:nth-child(3) {
     transform: rotate(45deg) translate(-5px, -6px);
   }
-  .btn-join-now {
- 
-  padding: 0.7rem;
-    margin-right: 15px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #e07000;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+  
+.btn-join{
+  background-color: #e07000;
+  color: aliceblue;
 }
 
-.btn-join-now i {
-  margin-left: 10px;
-}
-
-.btn-join-now:hover {
+.btn-join:hover {
   background-color: #f58424;
 }
 .logo {

@@ -5,10 +5,13 @@
     color: #fff;
     padding: 20px 0; /* Adjust the padding as needed */
     overflow-x: hidden; /* Hide horizontal overflow */
+    align-items: center;
+    justify-content: center;
   }
   
   .modern-footer h5 {
     color: #e07000;
+    text-align: center;
   }
   
   .social-icons {
@@ -16,6 +19,8 @@
     padding: 0;
     display: flex;
     gap: 10px;
+    display: flex;
+    justify-content: center;
   }
   
   .social-icons a {
@@ -36,7 +41,6 @@
   
   .footer-bottom {
     background-color: #222;
-    
     position: relative;
     bottom: 0;
     width: 100%;
@@ -53,7 +57,7 @@
     margin-left: -1rem;
     font-size: 1.2rem;
   }
-  /* Additional styling for the newsletter form */
+  
   .form-control {
     background-color: #333;
     color: #fff;
@@ -79,13 +83,15 @@
   .col-md-4 p {
     line-height: 1.6;
   }
-  
+  .newsletter input::placeholder {
+    color: rgba(200, 200, 200, 0.6); /* Replace with your desired color code */
+  }
   /* Media queries for responsiveness */
   @media only screen and (max-width: 767px) {
     .modern-footer {
         background-color: rgba(1, 1, 1, 0.3);
         color: #fff;
-        padding: 20px 0; 
+        padding: 1rem; 
         overflow-x: hidden; 
       }
   .newletter{
