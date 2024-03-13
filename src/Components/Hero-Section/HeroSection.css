@@ -124,7 +124,7 @@
     margin-left: 4rem;
     margin-top: 6rem;
     position: relative;
-    overflow-x: hidden;
+    align-items: flex-end;
   }
   
   .body-builder::before {
@@ -141,7 +141,7 @@
   
   .body-builder > img {
     height: 31.8rem;
-    overflow-x: hidden;
+   
     z-index: 1; 
   }
   
@@ -256,3 +256,32 @@
       border-radius: 1rem;
     } */
   }  
+  @media only screen and (min-width: 1400px) {
+    .loading-beast {
+      font-size: 2.5rem;
+      margin-top: 10rem;
+    }
+  
+    .hero-text {
+      font-size: 4rem;
+    }
+  
+    .description {
+      font-size: 1.8rem;
+    }
+  
+    .cta-buttons button {
+      padding: 15px 30px;
+      font-size: 18px;
+    }
+  
+    .body-builder {
+      margin-left: 6rem;
+      margin-top: 10rem;
+    }
+  
+    .body-builder > img {
+      height: 40rem;
+    }
+  }
+  
